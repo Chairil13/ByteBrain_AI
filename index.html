@@ -151,6 +151,7 @@
             games designed to make learning fun and engaging.
           </h2>
         </div>
+        <button id="download-app">Download App</button>
       </div>
       <img src="assets/app-side.png" alt="" />
       <div class="circle"></div>
@@ -164,7 +165,7 @@
           Install ByteBrain AI app, your AI personal assistant,<br />available
           now for Android on PlayStore.
         </p>
-        <button id="download-playstore-footer">Download Now!</button>
+        <button id="download-playstore-footer">Download on PlayStore</button>
       </div>
     </div>
 
@@ -236,6 +237,10 @@
 
       document.getElementById("demo").onclick = function () {
         window.location.href = demoUrl;
+      };
+
+      document.getElementById("download-app").onclick = function () {
+        window.location.href = playstoreUrl;
       };
 
       document.getElementById("download-playstore-footer").onclick =
