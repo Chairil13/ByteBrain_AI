@@ -12,7 +12,7 @@
     <script type="text/javascript">
       window.onload = function () {
         alert(
-          "Selamat datang di ByteBrain AI!\n\nPERHATIAN: Aplikasi ByteBrain AI TIDAK mengambil data user, TIDAK berisi phising (penipuan), TIDAK mengandung konten negatif maupun segala sesuatu yang berdampak buruk kepada user. ByteBrain AI dibangun dengan tujuan agar membantu user untuk memecahkan masalah khususnya yang memerlukan bantuan dari Artificial Intelligence. Saat ini ByteBrain AI belum tersedia di PlayStore namun bisa di download langsung lewat tombol download yang tersedia, saat pertama kali install anda mungkin mengalami masalah instalasi, jadi silahkan aktifkan Install Aplikasi dari pihak lain terlebih dahulu.\n\nBest Regards,\nChairil Ali & Samrah Daeng Makase\n\nTerimakasih."
+          "Selamat datang di ByteBrain AI!\n\nPERHATIAN: Aplikasi ByteBrain AI TIDAK mengambil data user, TIDAK berisi phising (penipuan), TIDAK mengandung konten negatif maupun segala sesuatu yang berdampak buruk kepada user. ByteBrain AI dibangun dengan tujuan agar membantu user untuk memecahkan masalah khususnya yang memerlukan bantuan dari Artificial Intelligence. Saat ini ByteBrain AI belum tersedia di PlayStore namun bisa di download langsung lewat tombol download yang tersedia.\n\nSaat pertama kali install Anda mungkin mengalami masalah instalasi, jadi silahkan izinkan Install Aplikasi dari pihak lain terlebih dahulu.\n\nBest Regards,\nChairil Ali & Samrah Daeng Makase\n\nTerimakasih."
         );
       };
     </script>
@@ -43,7 +43,7 @@
           features.
         </p>
         <button id="download-playstore">Download Now</button>
-        <button id="howToDownload">How to Install</button>
+        <button id="survey">Survey</button>
         <button id="demo">Demo</button>
       </div>
       <img src="assets/app-home.png" alt="" />
@@ -223,15 +223,15 @@
 
       // JavaScript to add the link to the buttons
       const playstoreUrl = "assets/Bytebrain_AI.apk";
-      const howTo = "https://youtu.be/h1gQDAaTd44?si=5HFXjuykYqLczVdM";
+      const survey = "https://s.id/Survei_ByteBrainAI";
       const demoUrl = "https://youtu.be/h1gQDAaTd44?si=5HFXjuykYqLczVdM";
 
       document.getElementById("download-playstore").onclick = function () {
         window.location.href = playstoreUrl;
       };
 
-      document.getElementById("howToDownload").onclick = function () {
-        window.location.href = howTo;
+      document.getElementById("survey").onclick = function () {
+        window.open(survey, "_blank");
       };
 
       document.getElementById("demo").onclick = function () {
