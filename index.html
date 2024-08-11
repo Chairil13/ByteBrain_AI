@@ -43,7 +43,7 @@
           features.
         </p>
         <button id="download-playstore">Download (23,8 MB)</button>
-        <button id="survey">Survey</button>
+        <button id="howTo">How to Install</button>
         <button id="demo">Demo</button>
       </div>
       <img src="assets/app-home.png" alt="" />
@@ -223,15 +223,16 @@
 
       // JavaScript to add the link to the buttons
       const playstoreUrl = "assets/Bytebrain_AI.apk";
-      const survey = "https://s.id/Survei_ByteBrainAI";
+      const howTo = "https://youtu.be/4f2nAmQt4n8?si=OCJKlDKCEjmaB13E";
       const demoUrl = "https://youtu.be/h1gQDAaTd44?si=5HFXjuykYqLczVdM";
 
       document.getElementById("download-playstore").onclick = function () {
         window.location.href = playstoreUrl;
       };
 
-      document.getElementById("survey").onclick = function () {
-        window.open(survey, "_blank");
+      document.getElementById("howTo").onclick = function () {
+        window.location.href = howTo;
+        // window.open(howTo, "_blank");
       };
 
       document.getElementById("demo").onclick = function () {
